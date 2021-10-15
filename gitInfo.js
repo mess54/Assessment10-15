@@ -9,7 +9,8 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+gitDefinition = "Git is used to store projects so that you can keep all your code in one place";
+console.log(gitDefinition);
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +18,8 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+gitHubDefinition = "GitHub is an internet site that yourself or others can use to access your stored code across multiple devices";
+console.log(gitHubDefinition);
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -33,7 +35,8 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+let init = "How you will initialize all your projects into git";
+let initCode = "git init";
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +44,8 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+let gitClone = "creates a copy of your current respository";
+let gitCloneCode = "git clone";
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +53,8 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+let gitStatus = "Gives you the status of whether or not your project is ready to push to git";
+let gitStatusCode = "git status";
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +62,8 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+let gitAdd = "This is the function that actually addds everything in your current folder that you are in to git";
+let gitAddCode = "git add .";
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +71,8 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+let gitCommit = "Commits your changes to git and you can add a message to describe what was changed";
+let gitCommitCode = "git commit -m";
 
 
 //////////////////PROBLEM 8////////////////////
@@ -74,4 +81,7 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+let gitPush = "This step is what actually pushes your project/file that you are working on to GitHub";
+let gitPushCode = "git push";
+console.log(gitPush);
+console.log(gitPushCode);
