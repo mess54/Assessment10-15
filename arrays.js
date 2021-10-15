@@ -37,4 +37,13 @@ console.log(middleNums)
   Return the answers array inside of the function.
 */
 
-// CODE HERE
+function bigOrSmall(){
+  var arr = [23,34,54,61,86,91,132,145,176]
+  for(i > 100; i < arr.length; i++)
+    console.log("Big")
+  for(i < 100; i > arr.length; i++)
+    console.log("small")
+  }
+
+
+
